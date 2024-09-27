@@ -11,4 +11,5 @@ import {Film} from 'definitions';
 })
 export class CardComponent {
     @Input() film!: Film;
+
 }

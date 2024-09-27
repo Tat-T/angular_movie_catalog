@@ -1,6 +1,7 @@
 import {Component, Input} from '@angular/core';
 import {DetailsService} from "services";
 import {FilmInfo} from "definitions";
+import { Location } from '@angular/common';
 
 @Component({
     selector: 'app-details-page',
@@ -16,6 +17,10 @@ export class DetailsPageComponent {
 
     public film!: FilmInfo;
 
-    constructor(private detailsService: DetailsService) {
+    constructor(private detailsService: DetailsService, private location: Location) {
+    }
+
+    goBack(): void {
+        this.location.back();
     }
 }
