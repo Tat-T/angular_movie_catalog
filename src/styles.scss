@@ -9,16 +9,16 @@
 @import "bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
-$pagination-color: $success;
+$pagination-color: #124577;
 
-$pagination-focus-color: #white;
+$pagination-focus-color: $success;
 
 $pagination-hover-color: $white;
-$pagination-hover-bg: $success-bg-subtle;
+$pagination-hover-bg: $dark-bg-subtle;
 
 $pagination-active-color: $white;
-$pagination-active-bg: $success;
-$pagination-active-border-color: $success-border-subtle;
+$pagination-active-bg: #124577;
+$pagination-active-border-color: $dark-border-subtle;
 
 // 5. Include remainder of required parts
 @import "bootstrap/scss/maps";
