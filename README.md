@@ -1,5 +1,5 @@
 Создание веб-приложений 
-с использованием Angular
+с использованием Angular <link rel="icon" type="image/x-icon" href="favicon.ico">
 --
 
 Тема: HTTP запросы
@@ -8,6 +8,9 @@
 показать короткое и длинное описание фильма. Используется API 
 сайта http://www.omdbapi.com/ для получения данных.
 
+<img src="public/Screenshot_9.jpg" alt="Окно приложения" width="350">
+
+<img src="public/Screenshot_1.jpg" alt="Окно приложения" width="350">
 
 ### Установка и запуск (VSCode)
 Открыть терминал:
@@ -21,3 +24,4 @@ Ctrl+j
 Замените OMDB_API на свой секретный ключ
 
 ---
+
